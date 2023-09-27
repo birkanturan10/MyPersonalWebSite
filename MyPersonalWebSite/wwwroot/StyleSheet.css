@@ -1,0 +1,27 @@
+﻿* {
+    font-family: 'Poppins',sans-serif;
+    color:white;
+}
+
+.container {
+    background-color: #03045e;
+}
+
+.boxes{
+    border-radius:30px;
+    background-position:center;
+}
+
+body {
+    background: url('pexels-juan-agustin-2340254.jpg') no-repeat;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.ayrac {
+    border: none;
+    border-top: 3px solid #caf0f8;
+    max-width: 250px;
+    margin: 25px auto;
+}

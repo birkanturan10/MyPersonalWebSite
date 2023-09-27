@@ -1,0 +1,134 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Birkan Turan</title>
+	<!--StyleSheet.css-->
+	<link href="~/stylesheet.css" rel="stylesheet" />
+    <!--Bootstrap Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--FontAwesome Link-->
+    <script src="https://kit.fontawesome.com/d74d237bf1.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/Home/Index">Birkan Turan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="#guncelbilgiler">Güncel Bilgiler</a>
+                    <a class="nav-link text-white" href="#hakkimda">Hakkımda</a>
+                    <a class="nav-link text-white" href="#egitimlerim">Eğitimlerim</a>
+                    <a class="nav-link text-white" href="#baziprojelerim">Bazı Projelerim</a>
+                    <a class="nav-link text-white" href="#iletisim">İletişim</a>
+                    <a class="nav-link text-white" href="#cv">CV</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Güncel Bilgiler-->
+    <div class="p-5 text-center" id="guncelbilgiler">
+        <div class="container boxes pt-2 pb-1">
+            <h3>Güncel Bilgiler</h3>
+            <hr class="ayrac"/>
+            <p>
+                Dolar Kuru: @ViewBag.dolarkuru$
+            </p>
+            <p>
+                Euro Kuru: @ViewBag.eurokuru€
+            </p>
+            <p>
+                İzmir Hava Durumu: @ViewBag.sicaklik°C @ViewBag.durum <img src="@ViewBag.iconurl" />
+            </p>
+        </div>
+    </div>
+    <!--Hakkımda-->
+    <div class="p-5 text-center" id="hakkimda">
+        <div class="container boxes pt-2 pb-1">
+            <h3>Hakkımda</h3>
+            <hr class="ayrac" />
+            <p>
+                Merhaba, ben Birkan. Matematik bölümünden mezun oldum ve daha sonra .NET üzerine eğitim aldım. Kendimi geliştirerek ve pratik yaparak C#, HTML, CSS, JavaScript, Bootstrap ve MSSQL Server gibi teknolojileri başarıyla öğrendim. Matematik eğitimim, analitik düşünme becerilerimi güçlendirdi ve problem çözme yeteneğimde derinlik kazandırdı. Bu yeteneklerimi yazılım geliştirme alanında kullanmak için kendimi sürekli olarak geliştirmeye ve yeni teknolojileri öğrenmeye odaklanıyorum.
+            </p>
+        </div>
+    </div>
+    <!--Eğitimlerim-->
+    <div class="p-5 text-center" id="egitimlerim">
+        <div class="container boxes pt-2 pb-1">
+            <h3>Eğitimlerim</h3>
+            <hr class="ayrac" />
+            <p>
+                Teğmen Ali Rıza Akıncı Anadolu Lisesi (2013 - 2017)
+            </p>
+            <p>
+                Manisa Celal Bayar Üniversitesi - Matematik (2018 - 2022)
+            </p>
+            <p>
+                Anadolu Üniversitesi - Bilgisayar Programcılığı (AÖF) (2022 - )
+            </p>
+        </div>
+    </div>
+    <!--Bazı Projelerim-->
+    <div class="p-5 text-center" id="baziprojelerim">
+        <div class="container boxes pt-2 pb-1">
+            <h3>Bazı Projelerim</h3>
+            <hr class="ayrac" />
+            <h5><b>Kütüphane</b></h5>
+            <p>
+                C#, HTML, CSS, jQuery, Bootstrap, MSSQL Server gibi teknolojileri kullanarak web üzerinde yaptığım kütüphane projesinde; kitap ekleme, güncelleme ve silme gibi CRUD işlemleri bulunmaktadır. jQuery kullanarak arama kutucuğu yapılmıştır. Yazara ve yayınevine göre kütüphanede kaç kitap bulunduğu gösterilmiştir.
+                <br />
+                <a style="color:#90e0ef" href="https://github.com/birkanturan10/Library">Library</a>
+            </p>
+            <h5><b>Rick And Morty API</b></h5>
+            <p>
+                C#, CSS, HTML, Bootstrap, Web API, jQuery gibi teknolojileri kullandığım bu çalışmada; ünlü animasyon çizgi film Rick And Morty'deki tüm lokasyonları, bölümleri ve karakterleri api ile göstermiş oldum.
+                <br />
+                <a style="color:#90e0ef" href="https://github.com/birkanturan10/RickAndMorty">RickAndMorty</a>
+            </p>
+            <h5><b>İzmir'deki Nöbetçi Eczaneler</b></h5>
+            <p>
+                HTML, CSS, C#, Bootstrap, Web API kullanarak yaptığım bu çalışmada, İzmir'deki nöbetçi eczanelerin otomatik olarak yenilenmesini sağladım. Arama kutucuğuna yazıp arama yaptırabilir, İzmir'de o gün hangi nöbetçi eczaneler olduğunu rahatlıkla görebiliriz.
+                <br />
+                <a style="color:#90e0ef" href="https://github.com/birkanturan10/izmir_nobetci_eczaneler">izmir_nobetci_eczaneler</a>
+            </p>
+        </div>
+    </div>
+    <!--İletişim-->
+    <div class="p-5 text-center" id="iletisim">
+        <div class="container boxes pt-2 pb-1">
+            <h3>İletişim</h3>
+            <hr class="ayrac" />
+            <p><i class="fa-solid fa-envelope"></i><a style="color:#90e0ef" href="mailto:birkanturan35@gmail.com"> Mail: birkanturan35@gmail.com</a></p>
+            <p><i class="fa-brands fa-linkedin"></i><a style="color:#90e0ef" href="https://www.linkedin.com/in/birkanturan10/" target="_blank"> LinkedIn: birkanturan10</a></p>
+            <p><i class="fa-brands fa-github"></i><a style="color:#90e0ef" href="https://github.com/birkanturan10" target="_blank"> GitHub: birkanturan10</a></p>
+            <p><i class="fa-brands fa-instagram"></i><a style="color:#90e0ef" href="https://www.instagram.com/birkanturan10/" target="_blank"> Instagram: birkanturan10</a></p>
+            <p><i class="fa-brands fa-twitter"></i><a style="color:#90e0ef" href="https://twitter.com/birkanturan55" target="_blank"> Twitter: birkanturan55</a></p>
+        </div>
+    </div>
+    <!--CV-->
+    <div class="p-5 text-center" id="cv">
+        <div class="container boxes pt-2 pb-1">
+            <h3>CV</h3>
+            <hr class="ayrac" />
+            <p><a style="color:#90e0ef" href="~/BirkanTuranCVTurkce.pdf" target="_blank">Birkan Turan - CV</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
