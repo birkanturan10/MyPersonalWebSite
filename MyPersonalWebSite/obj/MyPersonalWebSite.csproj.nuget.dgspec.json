@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj": {}
+    "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj": {
+    "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
+        "projectUniqueName": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
         "projectName": "MyPersonalWebSite",
-        "projectPath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
+        "projectPath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
         "packagesPath": "C:\\Users\\birka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\obj\\",
+        "outputPath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

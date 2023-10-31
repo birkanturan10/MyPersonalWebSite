@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "49cdb4E3njDFywqddZIH83lpkMT85vjUZoA90z6sviQRkIRdWC7Ohb/ZkcqMZKTsyhGbcYQN8XAlPXJnIAfn7A==",
+  "dgSpecHash": "m067ojG4BIlwIX+fWc2LRce59WQYuAs3GyxBfgdTEq/QLiOPMSU7BxpSidls4hKQWiEZVVFMs2jHArUXRER1qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
+  "projectFilePath": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\MyPersonalWebSite\\MyPersonalWebSite\\MyPersonalWebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\birka\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\birka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
