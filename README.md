@@ -1,2 +1,11 @@
 # MyPersonalWebSite
-Bootstrap, HTML, CSS, JavaScript kullanarak Frontend tarafını tamamladığım, Web API kullanarak da güncel kur ve hava sıcaklığı bilgilerini verdiğim kişisel web sitem. Proje daha önce yapılmış olup, eksiklerin giderilmesi, kodların daha rahat düzeltilebilmesi ve daha iyi bir kontrol adına tekrar yeni bir proje olarak açılmıştır. (birkanturan.com.tr)
+Kişisel bilgilerimi, yeteneklerimi, eğitimlerimi vs. paylaşabildiğim; hali hazırda yayında olan web sitem (http://birkanturan.com.tr).
+
+Kullanılan Teknolojiler:
+1. .NET
+2. C#
+3. HTML
+4. CSS
+5. Bootstrap
+6. Web API
+7. ASP .NET Core
