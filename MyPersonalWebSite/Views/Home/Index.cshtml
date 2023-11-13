@@ -35,7 +35,7 @@
                     <a class="nav-link active text-white" aria-current="page" href="#guncelbilgiler">Güncel Bilgiler</a>
                     <a class="nav-link text-white" href="#hakkimda">Hakkımda</a>
                     <a class="nav-link text-white" href="#egitimlerim">Eğitimlerim</a>
-                    <a class="nav-link text-white" href="#baziprojelerim">Bazı Projelerim</a>
+                    <a class="nav-link text-white" href="#sonprojelerim">Son     Projelerim</a>
                     <a class="nav-link text-white" href="#iletisim">İletişim</a>
                     <a class="nav-link text-white" href="#cv_sertifikalarım">CV ve Sertifikalarım</a>
                 </div>
@@ -84,28 +84,35 @@
             </p>
         </div>
     </div>
-    <!--Bazı Projelerim-->
-    <div class="p-5 text-center" id="baziprojelerim">
+    <!--Son Projelerim-->
+    <div class="p-5 text-center" id="sonprojelerim">
         <div class="container boxes pt-2 pb-1">
             <h3>Bazı Projelerim</h3>
             <hr class="ayrac" />
-            <h5><b>Kütüphane</b></h5>
+            <p><b>Not:</b>Proje isimlerine tıklayarak projeye gidebilirsiniz.</p>
+            <p><button class="button" onclick="openSchool()">School</button></p>
             <p>
-                C#, HTML, CSS, jQuery, Bootstrap, MSSQL Server gibi teknolojileri kullanarak web üzerinde yaptığım kütüphane projesinde; kitap ekleme, güncelleme ve silme gibi CRUD işlemleri bulunmaktadır. jQuery kullanarak arama kutucuğu yapılmıştır. Yazara ve yayınevine göre kütüphanede kaç kitap bulunduğu gösterilmiştir.
-                <br />
-                <a style="color:#90e0ef" href="https://github.com/birkanturan10/Library">Library</a>
+                Öğretmen kaydı yapıp öğrencilere not
+                girebileceğiniz, öğrenci kaydı yapıp öğretmenin girdiği
+                notları görebileceğiniz kapsamlı bir not görüntüleme
+                sistemi/okul projesidir. Kullanılan teknolojiler: .NET, C#,
+                MSSQL Server, HTML, CSS, ASP .NET Core, Bootstrap
             </p>
-            <h5><b>Rick And Morty API</b></h5>
+            <p><button class="button" onclick="openLibrary()">Library</button></p>
             <p>
-                C#, CSS, HTML, Bootstrap, Web API, jQuery gibi teknolojileri kullandığım bu çalışmada; ünlü animasyon çizgi film Rick And Morty'deki tüm lokasyonları, bölümleri ve karakterleri api ile göstermiş oldum.
-                <br />
-                <a style="color:#90e0ef" href="https://github.com/birkanturan10/RickAndMorty">RickAndMorty</a>
+                Kendi kütüphanenizi kontrol edebileceğiniz, kitap
+                ekleyip çıkarabileceğiniz, hangi yayınevinden ve hangi
+                yazardan kaç tane olduğunu görebileceğiniz web tabanlı
+                bir uygulama. Kullanılan teknolojiler: .NET, C#, HTML,
+                CSS, jQuery, Bootstrap, MSSQL Server, ASP .NET Core
             </p>
-            <h5><b>İzmir'deki Nöbetçi Eczaneler</b></h5>
+            <p><button class="button" onclick="openRickAndMorty()">RickAndMorty</button></p>
             <p>
-                HTML, CSS, C#, Bootstrap, Web API kullanarak yaptığım bu çalışmada, İzmir'deki nöbetçi eczanelerin otomatik olarak yenilenmesini sağladım. Arama kutucuğuna yazıp arama yaptırabilir, İzmir'de o gün hangi nöbetçi eczaneler olduğunu rahatlıkla görebiliriz.
-                <br />
-                <a style="color:#90e0ef" href="https://github.com/birkanturan10/izmir_nobetci_eczaneler">izmir_nobetci_eczaneler</a>
+                Rick And Morty animasyon çizgi dizisinin tüm
+                karakterlerini, lokasyonlarını ve bölümlerini
+                görebildiğimiz bir web projesi. Kullanılan teknolojiler:
+                .NET, C#, HTML, CSS, Bootstrap, Web API, jQuery, ASP
+                .NET Core
             </p>
         </div>
     </div>
@@ -126,13 +133,41 @@
         <div class="container boxes pt-2 pb-1">
             <h3>CV ve Sertifikalarım</h3>
             <hr class="ayrac" />
-            <p><a style="color:#90e0ef" href="~/BirkanTuranCVTurkce.pdf" target="_blank">Birkan Turan - CV</a></p>
-            <p><a style="color:#90e0ef" href="~/NETDeveloperSertifika.pdf" target="_blank">.NET Developer - Sertifika</a></p>
-            <p><a style="color:#90e0ef" href="~/SQLSertifika.pdf" target="_blank">SQL - Sertifika</a></p>
-            <p><a style="color:#90e0ef" href="~/HTMLSertifika.pdf" target="_blank">HTML - Sertifika</a></p>
-            <p><a style="color:#90e0ef" href="~/CSSSertifika.pdf" target="_blank">CSS - Sertifika</a></p>
+
+            <p><button class="button" onclick="openCV()">Birkan Turan - CV</button></p>
+            <p><button class="button" onclick="openNetDeveloper()">.NET Developer - Sertifika</button></p>
+            <p><button class="button" onclick="openSQL()">SQL - Sertifika</button></p>
+            <p><button class="button" onclick="openHTML()">HTML - Sertifika</button></p>
+            <p><button class="button" onclick="openCSS()">CSS - Sertifika</button></p>
         </div>
     </div>
 </body>
 </html>
+
+<script>
+    function openCV() {
+        window.open("BirkanTuranCVTurkce.pdf", "_blank");
+    }
+    function openNetDeveloper() {
+        window.open("NETDeveloperSertifika.pdf", "_blank");
+    }
+    function openSQL() {
+        window.open("SQLSertifika.pdf", "_blank");
+    }
+    function openHTML() {
+        window.open("HTMLSertifika.pdf", "_blank");
+    }
+    function openCSS() {
+        window.open("CSSSertifika.pdf", "_blank");
+    }
+    function openLibrary() {
+        window.open("https://github.com/birkanturan10/Library", "_blank");
+    }
+    function openRickAndMorty() {
+        window.open("https://github.com/birkanturan10/RickAndMorty", "_blank");
+    }
+    function openSchool() {
+        window.open("https://github.com/birkanturan10/School", "_blank");
+    }
+</script>
 
