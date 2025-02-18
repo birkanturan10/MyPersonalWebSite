@@ -1,5 +1,5 @@
 # MyPersonalWebSite
-Kişisel bilgilerimi, yeteneklerimi, eğitimlerimi vs. paylaşabildiğim; hali hazırda yayında olan web sitem (http://birkanturan.com.tr).
+Kişisel bilgilerimi, yeteneklerimi, eğitimlerimi vs. paylaşabildiğim; hali hazırda yayında olan web sitem 
 
 Kullanılan Teknolojiler:
 1. .NET
